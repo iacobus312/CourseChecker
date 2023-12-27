@@ -13,8 +13,9 @@ def main():
 	username = driver.find_element(By.ID, 'username')
 	password = driver.find_element(By.ID, 'password')
 
-	username.send_keys("ZHANGDGR") #type your own username here
-	password.send_keys("Applesauce123z") #type your own password here
+	username.send_keys("username") #type your own username here
+	password.send_keys("password") #type your own password here
+	#please don't steal my identity :D
 	
 	driver.find_element(By.TAG_NAME, "button").click()
 
